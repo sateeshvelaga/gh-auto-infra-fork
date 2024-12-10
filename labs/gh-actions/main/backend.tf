@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "my-terraform-state-bucket-sateeshvelaga"
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = "us-west-1"
   }
 
   required_providers {
