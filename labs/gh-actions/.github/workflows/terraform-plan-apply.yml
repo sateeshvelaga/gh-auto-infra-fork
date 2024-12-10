@@ -1,8 +1,10 @@
 name: 'Terraform AWS Pipeline'
 
 on:
+  push:
+    branches: [ "feature/**" ]
   workflow_dispatch:
-
+  
 permissions:
   contents: read
   pull-requests: write
